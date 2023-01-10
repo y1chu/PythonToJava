@@ -5,3 +5,50 @@ In Java, data types must be explicitly declared before a variable can be used. T
 ```agsl
 int x;
 ```
+
+In contrast, Python is a weakly typed language, which means that the data type of a variable is determined at runtime, and does not have to be explicitly declared. For example, to declare a variable in Python, you simply assign a value to it:
+
+```agsl
+x = 5
+```
+
+In this example, x is assigned the value of 5, and Python automatically determines that it is an integer.
+
+Here's some comparison of code in both languages:
+
+## Java
+
+```agsl
+int x = 5; // x is an integer
+double y = 3.14; // y is a double
+String name = "John Smith"; // name is a String
+
+```
+
+## Python
+
+```agsl
+x = 5 # x is an integer
+y = 3.14 # y is a float
+name = "John Smith" # name is a string
+
+```
+
+One important thing to note is that once a variable is declared with a specific data type in Java, it cannot be reassigned to a different data type. For example, the following code will produce a compile-time error:
+
+```agsl
+int x = "Kenji Miyama"; // Error: "hello" is a string, cannot be assigned to an integer variable
+
+```
+
+In Python, however, variables can be reassigned to different data types. For example, the following code is valid in Python:
+
+```agsl
+x = "Kenji Miyama" # x is a string
+x = 5 # x is an integer now
+
+```
+
+One key difference between Java and Python is that Java is a statically typed language, whereas Python is a dynamically typed language. This means that in Java the type of a variable must be declared at the time of its creation, and once set, the type cannot be changed. In contrast, the type of a variable in Python is determined at runtime and can change during the course of a program's execution.
+
+The main difference between strongly typed languages and weakly typed languages is in the way they handle type checking. In strongly typed languages like Java, the compiler checks for type errors at compile-time and will prevent a program from running if it contains any type errors. In contrast, weakly typed languages like Python only check for type errors at runtime, which can make them more flexible and less prone to bugs, but also more prone to runtime errors.
