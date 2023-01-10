@@ -22,7 +22,6 @@ Here's some comparison of code in both languages:
 int x = 5; // x is an integer
 double y = 3.14; // y is a double
 String name = "John Smith"; // name is a String
-
 ```
 
 ## Python
@@ -31,14 +30,12 @@ String name = "John Smith"; // name is a String
 x = 5 # x is an integer
 y = 3.14 # y is a float
 name = "John Smith" # name is a string
-
 ```
 
 One important thing to note is that once a variable is declared with a specific data type in Java, it cannot be reassigned to a different data type. For example, the following code will produce a compile-time error:
 
 ```agsl
 int x = "Kenji Miyama"; // Error: "hello" is a string, cannot be assigned to an integer variable
-
 ```
 
 In Python, however, variables can be reassigned to different data types. For example, the following code is valid in Python:
@@ -46,7 +43,6 @@ In Python, however, variables can be reassigned to different data types. For exa
 ```agsl
 x = "Kenji Miyama" # x is a string
 x = 5 # x is an integer now
-
 ```
 
 One key difference between Java and Python is that Java is a statically typed language, whereas Python is a dynamically typed language. This means that in Java the type of a variable must be declared at the time of its creation, and once set, the type cannot be changed. In contrast, the type of a variable in Python is determined at runtime and can change during the course of a program's execution.
