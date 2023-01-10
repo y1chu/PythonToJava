@@ -9,7 +9,7 @@ int x;
 In contrast, Python is a weakly typed language, which means that the data type of a variable is determined at runtime, and does not have to be explicitly declared. For example, to declare a variable in Python, you simply assign a value to it:
 
 ```agsl
-x = 5
+x = 14
 ```
 
 In this example, x is assigned the value of 5, and Python automatically determines that it is an integer.
@@ -19,17 +19,17 @@ Here's some comparison of code in both languages:
 ## Java
 
 ```agsl
-int x = 5; // x is an integer
+int x = 14; // x is an integer
 double y = 3.14; // y is a double
-String name = "John Smith"; // name is a String
+String name = "Rory Takahashi"; // name is a String
 ```
 
 ## Python
 
 ```agsl
-x = 5 # x is an integer
+x = 7 # x is an integer
 y = 3.14 # y is a float
-name = "John Smith" # name is a string
+name = "Eason Chen" # name is a string
 ```
 
 One important thing to note is that once a variable is declared with a specific data type in Java, it cannot be reassigned to a different data type. For example, the following code will produce a compile-time error:
